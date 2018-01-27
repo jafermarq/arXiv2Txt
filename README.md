@@ -11,6 +11,7 @@ Having access to thousands of publications via http://arxiv.org is great but whe
    to obtain the title of the publication and then rename the original pdf.
    
    
+
 ### Renaming the .pdf
 
    This is the basic usage of the arxiv python package that we'll be using:
@@ -26,3 +27,14 @@ Having access to thousands of publications via http://arxiv.org is great but whe
     print paper_title 
     # prints "Deep Residual Learning for Image Recognition"
    ```
+   
+### Usage
+
+   Here I provide three scripts to rename the .pdf with the title of the publication.
+   
+ #### Python script
+
+ #### Bash + Python script
+
+ #### Pure Bash
+
