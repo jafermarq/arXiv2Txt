@@ -30,9 +30,15 @@ Having access to thousands of publications via http://arxiv.org is great but whe
    
 ### Usage
 
-   Here I describe how to use each of the scripts int this repo. For each example, let's assume that the PDF file to rename is "1512.03385.pdf". The examples below assume that the PDF is in the same directory where the script is. However, this is not a requirement, passing a full path to the PDF will also work with either of the methods below.
+Here I describe how to use each of the scripts int this repo. For each example, let's assume that the PDF file to rename is "1512.03385.pdf". The examples below assume that the PDF is in the same directory where the script is. However, this is not a requirement, passing a full path to the PDF will also work with either of the methods below.
    
- #### Python script
+
+ #### Bash
+ 
+    # This will rename the PDF file with the title of the publication, "Deep Residual Learning for Image Recognition" for this particular id
+    $ ./rename.sh 1512.03385.pdf
+    
+ #### Embedded in your Python code
  
    ```python
      import getArXivName
@@ -45,10 +51,5 @@ Having access to thousands of publications via http://arxiv.org is great but whe
      ...
      
    ```
-
- #### Bash
- 
-    # This will rename the PDF file with the title of the publication, "Deep Residual Learning for Image Recognition" for this particular id
-    $ ./rename.sh 1512.03385.pdf
 
 
